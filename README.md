@@ -1,2 +1,2 @@
-# Wax-Poetics_Case-Study
+# WaxPoetics Case Study
 Case Study of a Design System for Web Development

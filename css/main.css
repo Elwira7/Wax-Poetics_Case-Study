@@ -443,6 +443,11 @@ input[type=email] {
       }
 
 .main-footer__nav :last-child {
-	max-width: 150px;
+	max-width: 175px;
 }
 
+.main-footer--bottom .{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}

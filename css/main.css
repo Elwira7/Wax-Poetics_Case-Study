@@ -13,8 +13,11 @@ html {
 }
 
 .container {
-	max-width: 1963px;
-	margin: 0 auto;
+	max-width: 1920px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 10px;
+
 }
 
 body {
@@ -24,7 +27,7 @@ body {
 	font-size: 18px;
 	font-weight: 300;
 	letter-spacing: -.01em;
-	background-color: #ecebe7;
+	background-color: white;
 }
 
 img {
@@ -32,13 +35,17 @@ img {
 	max-width: 100%;
 }
 
+p {
+	max-width: 500px;
+}
 
 .component__name {
 	font-size: 24px;
 	font-family: helvetica;
-	padding-bottom: 5px;
+	padding-top: 10px;
 	text-transform: uppercase;
-	border-bottom: 1px solid;
+	border-top: 3px solid;
+
 }
 
 .component img {
@@ -52,11 +59,13 @@ img {
 .component__code {
 	margin-bottom: 10px;
 }
-h1 {
+.site-name {
 	font-family: campaign;
-	text-align: center;
-	font-size: 50px;
-	padding-bottom: 20px;
+	font-weight: 600;
+	color: black;
+	font-size: 34px;
+	letter-spacing: -.05em;
+	text-align: left;
 }
 
 h2 {
@@ -64,7 +73,7 @@ h2 {
 	font-family: helvetica;
 	padding-bottom: .5rem;
 	text-transform: uppercase;	
-	text-align: center;
+	text-align: left;
 }
 
 
@@ -75,23 +84,26 @@ h2 {
 	text-transform: uppercase;
 }
 
-.site-name {
+h1 {
 	font-family: campaign;
 	font-weight: 600;
 	color: black;
 	font-size: 34px;
 	letter-spacing: -.05em;
+	text-align: left;
 }
+
 
 #h2 {
 	font-family: pragmatica-condensed, sans-serif;
 	font-weight: 700;
-	line-height: 54px;
 	color: black;
 	font-size: 60px;
 	letter-spacing: -.01em;
 	text-transform: uppercase;
 	max-width: 600px;
+	margin: 0;
+	padding-top: 15px;
 }
 
 #article__synopsis {
@@ -285,6 +297,7 @@ h5 {
 	justify-content: space-between;
 	padding: 0;
 	margin: 0;
+	align-items: center;
 }
 
 .eyebrow-menu a {
@@ -337,8 +350,16 @@ h5 {
 .code-image {
 	text-transform: uppercase;
 	font-family: "Helvetica Neue", Helvetica, sans;
-	font-weight: 400;
+	font-weight: 700;
 	font-size: 11px;
 	line-height: 13px;
 	list-style: none;
+}
+
+.fancy-box {
+	padding: 10px;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  background-color: #ecebe7;
 }

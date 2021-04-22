@@ -356,6 +356,8 @@ h5 {
 	list-style: none;
 }
 
+/*-----components page css only-----*/
+
 .fancy-box {
 	padding: 10px;
   width: 100%;
@@ -363,3 +365,84 @@ h5 {
   box-sizing: border-box;
   background-color: #ecebe7;
 }
+
+/* -----footer----- */
+
+.main-footer--top {
+	display: flex;
+	justify-content: space-between;
+}
+
+input[type=email] {
+	width: 100%;
+	padding: 20px 20px;
+	margin: 0 auto;
+	border: none;
+	border-bottom: 1px solid #0e0e0e;
+	background-color: #ecebe7; 
+}
+
+/* ----footer-lists----*/
+
+.h5--uppercase {
+	text-transform: uppercase;
+	font-size: 20px;
+	line-height: 27px;
+	color: #19111c;
+}
+
+.mailchimp-form {
+
+}
+.small-uppercase {
+	text-transform: uppercase;
+	font-family: "Helvetica Neue", Helvetica, sans;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 23px;
+	list-style: none;
+}
+
+.footer__ul {
+	display: block;
+	list-style: none;
+	line-height: 40px;
+	padding: 0;
+
+
+}
+
+.footer__li {
+	font-size: 18px;
+	line-height: 23px;
+	font-family: "Helvetica Neue", Helvetica, sans;
+	font-weight: 400;
+	text-decoration: none;
+	color: #19111c;
+}
+
+.main-footer--top {
+	display: flex;
+	justify-content: space-between;
+}
+
+.main-footer--top : first child {
+	 flex: 2 1 0
+}	
+.main-footer__nav {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	line-height: 23px;
+	border: 1px solid pink;
+}
+
+.main-footer__nav  > * {
+     width: 325px;
+      }
+
+.main-footer__nav :last-child {
+	max-width: 150px;
+}
+

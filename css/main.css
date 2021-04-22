@@ -333,3 +333,12 @@ h5 {
 	font-size: 15px;
 	font-weight: 400;
 }
+
+.code-image {
+	text-transform: uppercase;
+	font-family: "Helvetica Neue", Helvetica, sans;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 13px;
+	list-style: none;
+}

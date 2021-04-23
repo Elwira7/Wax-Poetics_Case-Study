@@ -389,12 +389,30 @@ input[type=email] {
 	font-size: 20px;
 	line-height: 27px;
 	color: #19111c;
+	margin-bottom: 20px;
+	text-align: left;
 }
 
-.mailchimp-form {
 
+.mailchimp-form__email {
+	padding: 0;
+	margin: 0;
+	display: block;
 }
+
+
+.arrow-button {
+	border: none;
+	background: none;
+}
+
+.email-form {
+	display: flex;
+}
+
 .small-uppercase {
+	display: flex;
+	justify-content: space-between;
 	text-transform: uppercase;
 	font-family: "Helvetica Neue", Helvetica, sans;
 	font-weight: 400;
@@ -408,8 +426,6 @@ input[type=email] {
 	list-style: none;
 	line-height: 40px;
 	padding: 0;
-
-
 }
 
 .footer__li {
@@ -424,6 +440,7 @@ input[type=email] {
 .main-footer--top {
 	display: flex;
 	justify-content: space-between;
+	padding-bottom: 50px;
 }
 
 .main-footer--top : first child {
@@ -435,7 +452,6 @@ input[type=email] {
 	flex-wrap: wrap;
 	justify-content: flex-end;
 	line-height: 23px;
-	border: 1px solid pink;
 }
 
 .main-footer__nav  > * {
@@ -446,8 +462,23 @@ input[type=email] {
 	max-width: 175px;
 }
 
-.main-footer--bottom .{
+.main-footer--bottom {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-end;
+	margin-top: 100px;
 }
+
+.footer--bottom_list-item {
+	padding-right: 20px;
+	text-decoration: none;
+}
+
+.footer--bottom_list-item a {
+	padding-right: 20px;
+	text-decoration: none;
+	color: #19111c;
+	font-weight: 400;
+}
+
+

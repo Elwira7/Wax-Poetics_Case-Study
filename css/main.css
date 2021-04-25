@@ -3,6 +3,7 @@
 	--font-sans-serif: helvetica, sans-serif;
 	--font-serif: adobe-caslon-pro, serif;
 	--gray-dark: #19111c;
+	--grapefruit: #f5683a;
 }
 
 html {
@@ -364,6 +365,39 @@ h5 {
   height: auto;
   box-sizing: border-box;
   background-color: #ecebe7;
+}
+
+/*-----Page Title Section-----*/
+
+.strong-eyebrow {
+	color: var(--grapefruit);
+	font-family: var(--font-sans-serif);
+	text-transform: uppercase;
+	font-size: 15px;
+	line-height: 15px;
+	opacity: .75;
+	margin: 0;
+	letter-spacing: -.01em;
+	max-width: 100%;
+	text-align: center;
+}
+
+
+.page-titles__names {
+	list-style: none;
+	padding: 0;
+}
+
+.page-titles__name {
+	text-align: center;
+}
+
+.listen-image {
+	display: block;
+  	margin-left: auto;
+ 	 margin-right: auto;
+ 	 width: 50%;
+ 	 max-width: 610px;
 }
 
 /* -----footer----- */

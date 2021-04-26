@@ -103,7 +103,7 @@ h1 {
 .wax-container {
 	max-width: 1920px;
 	background-color: #ecebe7;
-	padding: 0 2.08333vw 0;
+	padding: 0;
 }
 
 .mix-article {
@@ -238,7 +238,6 @@ h5 {
   display: grid;
   grid-template-columns: 1fr;
   font-weight: 100%;
-  padding-right: 20px;
   font-family: "Helvetica Neue", Helvetica, sans; 
   color: #19111c;
   line-height: 15px;
@@ -246,6 +245,7 @@ h5 {
   font-weight: 300;
   letter-spacing: 0.01em;
   text-align: right;
+
 }
 
 .main-header {
@@ -256,6 +256,9 @@ h5 {
 	padding: 0;
 	margin: 0;
 	align-items: center;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+
 }
 
 .eyebrow-menu a {
@@ -273,6 +276,14 @@ h5 {
 	text-decoration: none;
 }
 
+.eyebrow-menu {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	max-width: 220px;
+	border-right: 1px solid;
+	height: 50px;	
+}
 
 .site-name {
 	display: grid;
@@ -282,7 +293,6 @@ h5 {
 	font-weight: 600;
 	font-size: 34;
 	letter-spacing: .053m;
-	padding-bottom: 20px;
 	line-height: 23px;
 }
 
@@ -373,11 +383,37 @@ h5 {
 .icon-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 40px;
+  grid-gap: 75px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
+.icons {
+	color: black;
+	padding-right: 5px;
+}
+
+.icons--bars {
+	padding-right: 20px;
+}
+
+#arrow-up--45 {
+	display: inline-block;
+	transform: rotate(45deg);
+	padding-bottom: 0;
+	max-height: -5px;
+	max-width: 0px;
+}
+
+#bars--90 {
+	display: inline-block;
+	transform: rotate(90deg);
+}
+
+.fa-chevron-down {
+	padding-left: 10px;
+	padding-right: 0;
+}
 
 /*-----Page Title Section-----*/
 
@@ -439,15 +475,15 @@ input[type=email] {
 	font-size: 20px;
 	line-height: 27px;
 	color: #19111c;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 	text-align: left;
 }
 
 
-.mailchimp-form__email {
-	padding: 0;
-	margin: 0;
-	display: block;
+.email-form .mailchimp-form__email {
+	padding-bottom: 10px;
+	font-size: 18px;
+	padding-left: 0;
 }
 
 

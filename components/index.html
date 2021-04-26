@@ -4,8 +4,9 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<title>Wax Poetics | Components</title>
-		<link href="css/normalize.css" rel="stylesheet" />
+		<link href="../fonts/fontawesome/css/all.css" rel="stylesheet">
 		<link rel="stylesheet" href="https://use.typekit.net/edy4dnc.css">
+		<link href="css/normalize.css" rel="stylesheet"/>
 		<link type="text/css" rel="stylesheet" href="../css/main.css">
 	</head>
 	
@@ -157,17 +158,11 @@
 				<div class="fancy-box">
 					<h4 class="code-image">Image</h4>
 					<div class="component__img">
-						<img 
-						srcset="images/icon_bars.png 2x"
-						src="images/icon_bars.png"
-						alt="Search Bars"
-						/>
+						<i class="fas fa-bars"></i>
 					</div>
 					<div class="component__code"> 
 						<h4 class="code-image">Code</h4>
-						<button class="button--bars">
-							<img src="button--bars">
-						</button>
+						<a class="icons" id="bars" href="#!"><i class="fas fa-bars"></i></a>
 					</div>
 				</div>
 			</article>
@@ -185,9 +180,7 @@
 					</div>
 					<div class="component__code"> 
 						<h4 class="code-image">Code</h4>
-						<button class="button--submit">
-							<img src="button--submit">
-						</button>
+						<a class="icons" href="#!"><i class="fas fa-search"></i></a>
 					</div>
 				</div>
 			</article>
@@ -206,9 +199,7 @@
 					</div>
 					<div class="component__code"> 
 						<h4 class="code-image">Code</h4>
-						<button class="button--submit">
-							<img src="button--submit">
-						</button>
+						<a class="icons" href="#!"><i class="fas fa-chevron-down"></i></a>
 					</div>
 				</div>
 			</article>
@@ -226,9 +217,7 @@
 					</div>
 					<div class="component__code"> 
 						<h4 class="code-image">Code</h4>
-						<button class="button--submit">
-							<img src="button--submit">
-						</button>
+						<a class="icons" id="bars--90" href="#!"><i class="fas fa-bars"></i></a>
 					</div>
 				</div>
 			</article>
@@ -246,9 +235,7 @@
 					</div>
 					<div class="component__code"> 
 						<h4 class="code-image">Code</h4>
-						<button class="button--submit">
-							<img src="button--submit">
-						</button>
+						<a class="icons" id="arrow-up--45" href="#!"><i class="fas fa-arrow-up"></i></i></a>
 					</div>
 				</div>
 			</article>
@@ -273,7 +260,7 @@
 					 <div class="wax-container"> 
 						 <header class="main-header">
 							<nav class="eyebrow-menu">
-								<a href="#!">Explore Channels</a>
+								<a class="icons--bars" href="#!"><i class="fas fa-bars"></i></a><a href="#!">Explore Channels</a>
 							</nav>
 
 							<h1 class="site-name">WaxPoetics</h1>
@@ -284,7 +271,7 @@
 									<li><a href="#!">Subscribe</a></li>
 									<li><a href="#!">About</a></li>
 									<li><a href="#!">Account</a></li>
-									<li><a href="#!">Search</a></li>
+									<li><a class="icons" href="#!"><i class="fas fa-search"></i></a></li>
 								</ul>
 							</nav>
 				        </div>
@@ -340,7 +327,7 @@
 							<p>37 Mixes</p>
 					</article>
 					<article class="genre">
-							<button class="button--outline">Genre</button>
+							<button class="button--outline">Genres<a class="icons" href="#!"><i class="fas fa-chevron-down"></i></a></button>
 						</article>
 					<article class="sort-by">
 							<p>Sort By Recomended</p>
@@ -447,8 +434,8 @@
 									<div class="mailchimp-form">
 										<h5 class="h5--uppercase">Join Our Mailing List</h5>
 										<div class="email-form">
-						 						<input class="mailchimp-form__email" type="email" name="email" placeholder="Email" size="32"><br>
-						 						<input class="arrow-button" type="submit" value=">">
+						 						<input class="mailchimp-form__email" type="email" name="email" placeholder="Email" size="50"><br>
+						 						<a class="icons" id="arrow-up--45" href="#!"><i class="fas fa-arrow-up"></i></i></a>
 										</div>
 									</div>
 

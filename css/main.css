@@ -424,7 +424,7 @@ h5 {
 	max-width: 0px;
 }
 
-#bars--90 {
+.bars--90 {
 	display: inline-block;
 	transform: rotate(90deg);
 }

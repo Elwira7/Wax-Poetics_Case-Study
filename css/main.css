@@ -202,6 +202,8 @@ h5 {
 	text-transform: uppercase;
 }
 
+
+
 .eyebrow {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -379,6 +381,23 @@ h5 {
 	text-transform: uppercase;
 }
 
+#button--outline {
+	display: block;
+	border: 1px solid #19111c;
+	border-radius: 2.5rem;
+	padding: 0.8rem 1.5rem;
+	text-decoration: none;
+	color: #19111c;
+	margin: 0.5rem;
+	background: transparent;
+	color: var(--black);
+	font-family: "Helvetica Neue", Helvetica, sans;
+	font-weight: 400;
+	font-size: 18px;
+	text-align: left;
+	letter-spacing: -.01em;
+	text-transform: uppercase;
+}
 /*-----icons section-----*/
 .icon-grid {
   display: grid;

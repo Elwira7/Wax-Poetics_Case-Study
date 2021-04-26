@@ -20,8 +20,9 @@
 
 		<nav class="secondary-eyebrow">
 			<ul class="nav-list">
-			<li><a href="#!">Typography</a></li>
-			<li><a href="#!">Sections</a></li>
+			<li><a href="#typography">Typography</a></li>
+			<li><a href="#icons">Icons</a></li>
+			<li><a href="#sections">Sections</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -29,7 +30,8 @@
 
 	<body>
 		<div class="container">
-		<h2 class="components-section__name"> Typography</h2>
+		<div id="typography">
+		<h2 class="components-section__name">Typography</h2>
 		
 		<article class="component">
 			<h3 class="component__name">Body</h3>
@@ -118,40 +120,56 @@
 
 		<article class="component">
 			<h3 class="component__name">Links</h3>
-			<h4 class="component__name--sub-name">ul title</h4>
-			<div class="fancy-box">
-			<h4 class="code-image">Image</h4>
-			<div class="component__img">
-				<img 
-				srcset="images/footer__ul--title.png 2x"
-				src="images/footer__ul--title.png"
-				alt="Channels"
-				/>
+				<h4 class="component__name--sub-name">ul title</h4>
+				<div class="fancy-box">
+				<h4 class="code-image">Image</h4>
+				<div class="component__img">
+					<img 
+					srcset="images/footer__ul--title.png 2x"
+					src="images/footer__ul--title.png"
+					alt="Channels"
+					/>
+				</div>
+				<div class="component__code"> 
+				<h4 class="code-image">Code</h4>
+					<p id="ul-title">Chanels</p> 
+				</div>
 			</div>
-			<div class="component__code"> 
-			<h4 class="code-image">Code</h4>
-				<p id="ul-title">Chanels</p> 
-			</div>
+				<h4 class="component__name--sub-name">li</h4>
+				<div class="fancy-box">
+				<h4 class="code-image">Image</h4>
+				<div class="component__img">
+					<img 
+					srcset="images/footer__li.png 2x"
+					src="images/footer__li.png"
+					alt="Features"
+					/>
+				</div>
+				<div class="component__code"> 
+				<h4 class="code-image">Code</h4>
+					<p id="list-item">Features</p> 
+				</div>
 		</div>
-			<h4 class="component__name--sub-name">li</h4>
-			<div class="fancy-box">
-			<h4 class="code-image">Image</h4>
-			<div class="component__img">
-				<img 
-				srcset="images/footer__li.png 2x"
-				src="images/footer__li.png"
-				alt="Features"
-				/>
-			</div>
-			<div class="component__code"> 
-			<h4 class="code-image">Code</h4>
-				<p id="list-item">Features</p> 
-			</div>
-		</div>
+				<h4 class="component__name--sub-name">Button--Outline</h4>
+					<div class="fancy-box">
+					<h4 class="code-image">Image</h4>
+					<div class="component__img">
+					<img 
+					srcset="images/button--outline.png 2x"
+					src="images/button--outline.png"
+					alt="Channels"
+					/>
+					</div>
+					<div class="component__code"> 
+					<h4 class="code-image">Code</h4>	
+						<button id="button--outline">Read Article</button>
+					</div>
+				</div>
 		</article>
+	</div>
 
+		<div id="icons">
 		<h2 class="components-section__name">Icons</h2>
-
 		<div class="icon-grid">
 			<article class="component">
 				<h4 class="component__name--sub-name">Bars</h4>
@@ -240,9 +258,10 @@
 				</div>
 			</article>
 		</div>
+	</div>
 
+		<div id="sections">
 		<h2 class="components-section__name">Sections</h2>
-
 		<article class="component">
 			<h3 class="component__name">Main Header</h3>
 			<div class="fancy-box">
@@ -356,7 +375,7 @@
 
 						<article class="mix-left">
 							<div class="mix-article__tag">
-								<p class="mix-article__genre">Funk</p>
+								<p class="mix-article__genre"><a class="icons" id="bars--90" href="#!"><i class="fas fa-bars"></i></a>Funk</p>
 							</div>
 						
 							<figure class="mix-article__image">
@@ -375,7 +394,7 @@
 
 						<article class="mix-center">
 							<div class="mix-article__tag">
-								<p class="mix-article__genre">Jazz</p>
+								<p class="mix-article__genre"><a class="icons" id="bars--90" href="#!"><i class="fas fa-bars"></i></a>Jazz</p>
 							</div>
 						
 							<figure class="mix-article__image">
@@ -394,7 +413,7 @@
 
 						<article class="mix-right">
 							<div class="mix-article__tag">
-								<p class="mix-article__genre">Hip-Hop</p>
+								<p class="mix-article__genre"><a class="icons" id="bars--90" href="#!"><i class="fas fa-bars"></i></a>Hip-Hop</p>
 							</div>
 						
 							<figure class="mix-article__image">
@@ -488,10 +507,9 @@
 									</ul>
 								</div>
 						</footer>
-
-
 					</div>
 				</article>
+			</div>
 			</div>
 		</div>
 	</div>

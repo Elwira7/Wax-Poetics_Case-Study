@@ -211,6 +211,7 @@ h5 {
   margin-top: 20px;
   margin-bottom: 20px;
   text-transform: uppercase;
+  justify-content: space-around;
 }
 
 .total { 
@@ -234,6 +235,7 @@ h5 {
   font-weight: 100%;
   justify-content: center;
   border: 1px solid pink;
+  max-width: 150px;
 }
 
 .sort-by { 

@@ -182,6 +182,7 @@ h5 {
 }
 
 
+
 .button--outline {
 	display: block;
 	border: 1px solid #19111c;
@@ -201,7 +202,6 @@ h5 {
 	letter-spacing: -.01em;
 	text-transform: uppercase;
 }
-
 
 
 .eyebrow {
@@ -230,10 +230,10 @@ h5 {
 .genre { 
   display: grid;
   grid-template-columns: 1fr;
-  align-items: center;
+  align-content: center;
   font-weight: 100%;
-  padding-right: 20px;
-  text-align: center;
+  justify-content: center;
+  border: 1px solid pink;
 }
 
 .sort-by { 
@@ -381,8 +381,10 @@ h5 {
 	text-transform: uppercase;
 }
 
-#button--outline {
-	display: block;
+
+
+.button--outline {
+	display: flex;
 	border: 1px solid #19111c;
 	border-radius: 2.5rem;
 	padding: 0.8rem 1.5rem;
@@ -394,9 +396,11 @@ h5 {
 	font-family: "Helvetica Neue", Helvetica, sans;
 	font-weight: 400;
 	font-size: 18px;
-	text-align: left;
 	letter-spacing: -.01em;
 	text-transform: uppercase;
+	text-align: center;
+	max-width: 130px;
+	justify-content: space-around;
 }
 /*-----icons section-----*/
 .icon-grid {

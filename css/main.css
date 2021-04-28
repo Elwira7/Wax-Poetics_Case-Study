@@ -163,20 +163,18 @@ h1 {
   border-right: 1px solid;
 }
 
-.mix--right {
-}
-
-
 
 
 .mix__grid {
 	display:grid;
-	grid-template-columns: 1fr;
+	grid-template-rows: auto;
 	column-gap:20px;
+	text-align: center;
 }
 
 .mix__tag {
 	display: grid;
+	justify-content: flex-start;
 }
 
 .mix__image {
@@ -187,6 +185,10 @@ h1 {
 .mix__content {
 	display: grid;
 
+}
+
+.mix_read-article {
+	display: grid;
 }
 
 
@@ -212,12 +214,29 @@ h1 {
 }
 
 .mix__tag {
-	margin: 0;
+
 }
 
 .mix__content {
 
 }
+
+.button--outline {
+	border: 1px solid #19111c;
+	border-radius: 2.5rem;
+	padding: 0.8rem 1.5rem;
+	text-decoration: none;
+	color: #19111c;
+	margin: auto;
+	background: transparent;
+	color: var(--black);
+	font-family: "Helvetica Neue", Helvetica, sans;
+	font-weight: 400;
+	font-size: 18px;
+	letter-spacing: -.01em;
+	text-transform: uppercase;
+}
+
 
 h5 {
 	font-family: "Helvetica Neue", Helvetica, sans;
@@ -248,23 +267,6 @@ h5 {
 
 
 
-.button--outline {
-	display: block;
-	border: 1px solid #19111c;
-	border-radius: 2.5rem;
-	padding: 0.8rem 1rem;
-	text-decoration: none;
-	color: #19111c;
-	margin: 0.5rem;
-	background: transparent;
-	color: var(--black);
-	font-family: "Helvetica Neue", Helvetica, sans;
-	font-weight: 400;
-	font-size: 18px;
-	text-align: center;
-	letter-spacing: -.01em;
-	text-transform: uppercase;
-}
 
 
 .eyebrow {
@@ -444,25 +446,7 @@ h5 {
 
 
 
-.button--outline {
-	display: flex;
-	border: 1px solid #19111c;
-	border-radius: 2.5rem;
-	padding: 0.8rem 1.5rem;
-	text-decoration: none;
-	color: #19111c;
-	margin: 0.5rem;
-	background: transparent;
-	color: var(--black);
-	font-family: "Helvetica Neue", Helvetica, sans;
-	font-weight: 400;
-	font-size: 18px;
-	letter-spacing: -.01em;
-	text-transform: uppercase;
-	text-align: center;
-	max-width: 130px;
-	justify-content: space-around;
-}
+
 /*-----icons section-----*/
 .icon-grid {
   display: grid;

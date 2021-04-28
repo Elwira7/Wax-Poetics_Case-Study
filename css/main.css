@@ -153,6 +153,7 @@ h1 {
   padding-right: 20px;
 }
 
+
 .mix--left { 
   border-right: 1px solid;
 
@@ -164,6 +165,33 @@ h1 {
 
 .mix--right {
 }
+
+
+
+
+.mix__grid {
+	display:grid;
+	grid-template-columns: 1fr;
+	column-gap:20px;
+}
+
+.mix__tag {
+	display: grid;
+}
+
+.mix__image {
+	display: grid;
+
+}
+
+.mix__content {
+	display: grid;
+
+}
+
+
+
+
 
 .mix__genre {
 	font-family: "Helvetica Neue", Helvetica, sans;
@@ -181,8 +209,6 @@ h1 {
 	border: 1px solid pink;
 	margin: 0;
 	padding: 0;
-	align-items: center;
-	justify-content: center;
 }
 
 .mix__tag {
@@ -232,8 +258,6 @@ h5 {
 	margin: 0.5rem;
 	background: transparent;
 	color: var(--black);
-	margin-left: auto;
-	margin-right: auto;
 	font-family: "Helvetica Neue", Helvetica, sans;
 	font-weight: 400;
 	font-size: 18px;

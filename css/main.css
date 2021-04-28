@@ -115,40 +115,32 @@ h1 {
 
 .mixes {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(490px, 1fr));
   grid-gap: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
 .mix {
-	
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  padding-right: 20px;
 }
 
 .mix--left { 
-  display: grid;
-  grid-template-columns: 1fr;
-  align-items: center;
   border-right: 1px solid;
-  padding-right: 20px;
+
 }
 
 .mix--center { 
-  display: grid;
-  grid-template-columns: 1fr;
-  align-items: center;
   border-right: 1px solid;
-  padding-right: 20px;
 }
 
 .mix--right {
-  display: grid;
-  grid-template-columns: 1fr;
-  align-items: center;
-  padding-right: 20px;
 }
 
-.mix-article__genre {
+.mix__genre {
 	font-family: "Helvetica Neue", Helvetica, sans;
 	font-weight: 400;
 	font-size: 15px;
@@ -156,10 +148,12 @@ h1 {
 	text-transform: uppercase;
 }
 
-.mix-article__image {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+.mix__artwork {
+	width: 100%;
+}
+
+.mix__content {
+	
 }
 
 h5 {
@@ -172,7 +166,7 @@ h5 {
 	letter-spacing: -.01em;
 }
 
-.mix-article__name {
+.mix__name {
 	text-align: center;
 	text-decoration: none;
 	color: #19111c;

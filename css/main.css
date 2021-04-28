@@ -1,3 +1,8 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
 
 :root {
 	--font-sans-serif: helvetica, sans-serif;
@@ -106,7 +111,9 @@ h1 {
 	padding: 0;
 }
 
-.mix-article {
+/*-----Mix Grid Starts Here-----*/
+
+.mixes {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 20px;
@@ -114,29 +121,30 @@ h1 {
   margin-bottom: 20px;
 }
 
-.mix-left { 
+.mix {
+	
+}
+
+.mix--left { 
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
-  font-weight: 100%;
   border-right: 1px solid;
   padding-right: 20px;
 }
 
-.mix-center { 
+.mix--center { 
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
-  font-weight: 100%;
   border-right: 1px solid;
   padding-right: 20px;
 }
 
-.mix-right {
+.mix--right {
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
-  font-weight: 100%;
   padding-right: 20px;
 }
 
@@ -217,7 +225,6 @@ h5 {
 .total { 
   display: grid;
   grid-template-columns: 1fr;
-  font-weight: 100%;
   padding-right: 20px;
   font-family: "Helvetica Neue", Helvetica, sans; 
   color: #19111c;
@@ -232,7 +239,6 @@ h5 {
   display: grid;
   grid-template-columns: 1fr;
   align-content: center;
-  font-weight: 100%;
   justify-content: center;
   border: 1px solid pink;
   max-width: 150px;
@@ -241,7 +247,6 @@ h5 {
 .sort-by { 
   display: grid;
   grid-template-columns: 1fr;
-  font-weight: 100%;
   font-family: "Helvetica Neue", Helvetica, sans; 
   color: #19111c;
   line-height: 15px;
@@ -295,8 +300,7 @@ h5 {
 	text-align: center;
 	margin: auto;
 	font-weight: 600;
-	font-size: 34;
-	letter-spacing: .053m;
+	font-size: 34px;
 	line-height: 23px;
 }
 
@@ -426,7 +430,6 @@ h5 {
 	display: inline-block;
 	transform: rotate(45deg);
 	padding-bottom: 0;
-	max-height: -5px;
 	max-width: 0px;
 }
 
@@ -555,7 +558,7 @@ input[type=email] {
 	padding-bottom: 50px;
 }
 
-.main-footer--top : first child {
+.main-footer--top :first-child {
 	 flex: 2 1 0
 }	
 .main-footer__nav {

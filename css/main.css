@@ -49,6 +49,8 @@ html {
 
 .wrapper {
 	display: grid;
+	padding: 0 2.08333vw;
+	background-color: #ecebe7;
 }
 
 
@@ -71,8 +73,75 @@ p {
 	max-width: 500px;
 }
 
+/*----Main Header-----*/
 
+.main-header {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	align-items: flex-start;
+	justify-content: space-between;
+	padding: 0;
+	margin: 0;
+	align-items: center;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
 
+}
+
+.eyebrow-menu a {
+	list-style: none;
+	display: grid;
+	text-transform: uppercase;
+	justify-content: flex-start;
+	width: auto;
+	line-height: .9;
+	font-family: "Helvetica Neue", Helvetica, sans; 
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 23px;
+	color: #19111c;
+	text-decoration: none;
+}
+
+.eyebrow-menu {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	max-width: 220px;
+	border-right: 1px solid;
+	height: 50px;	
+}
+
+.site-name {
+	display: grid;
+	align-items: center;
+	text-align: center;
+	margin: auto;
+	font-weight: 600;
+	font-size: 34px;
+	line-height: 23px;
+}
+
+.secondary-eyebrow ul {
+	list-style: none;
+	justify-content: flex-end;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	text-transform: uppercase;
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, sans; 
+}
+
+.secondary-eyebrow a {
+	color: #19111c;
+	text-decoration: none;
+	padding: 0 15px;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+/*-----Main Header Ends Here----*/
 h1 {
 	font-family: campaign;
 	font-weight: 600;
@@ -314,71 +383,6 @@ h5 {
 
 }
 
-.main-header {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-	align-items: flex-start;
-	justify-content: space-between;
-	padding: 0;
-	margin: 0;
-	align-items: center;
-	border-top: 1px solid;
-	border-bottom: 1px solid;
-
-}
-
-.eyebrow-menu a {
-	list-style: none;
-	display: grid;
-	text-transform: uppercase;
-	justify-content: flex-start;
-	width: auto;
-	line-height: .9;
-	font-family: "Helvetica Neue", Helvetica, sans; 
-	font-weight: 400;
-	font-size: 15px;
-	line-height: 23px;
-	color: #19111c;
-	text-decoration: none;
-}
-
-.eyebrow-menu {
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	max-width: 220px;
-	border-right: 1px solid;
-	height: 50px;	
-}
-
-.site-name {
-	display: grid;
-	align-items: center;
-	text-align: center;
-	margin: auto;
-	font-weight: 600;
-	font-size: 34px;
-	line-height: 23px;
-}
-
-.secondary-eyebrow ul {
-	list-style: none;
-	justify-content: flex-end;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	text-transform: uppercase;
-	margin: 0;
-	font-family: "Helvetica Neue", Helvetica, sans; 
-}
-
-.secondary-eyebrow a {
-	color: #19111c;
-	text-decoration: none;
-	padding: 0 15px;
-	font-size: 15px;
-	font-weight: 400;
-}
 
 .code-image {
 	text-transform: uppercase;

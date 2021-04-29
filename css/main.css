@@ -536,7 +536,6 @@ input[type=email] {
 	background-color: #ecebe7; 
 }
 
-/* ----footer-lists----*/
 
 .h5--uppercase {
 	text-transform: uppercase;
@@ -548,12 +547,23 @@ input[type=email] {
 }
 
 
-.email-form .mailchimp-form__email {
+.email-form {
 	padding-bottom: 10px;
 	font-size: 18px;
 	padding-left: 0;
+	font-family: "Helvetica Neue", Helvetica, sans;
+	max-width: 330px;
+	}
+
+.email-form .mailchimp-form__email {
+	padding: 0;
+	margin: 0;
 }
 
+.input {
+  font-family:inherit;
+  font-size: inherit;
+}
 
 .arrow-button {
 	border: none;
@@ -583,10 +593,10 @@ input[type=email] {
 }
 
 .footer__ul {
-	display: block;
 	list-style: none;
 	line-height: 40px;
 	padding: 0;
+	margin-left: 25px;
 }
 
 .footer__li {
@@ -596,12 +606,14 @@ input[type=email] {
 	font-weight: 400;
 	text-decoration: none;
 	color: #19111c;
+	box-sizing: border-box;
 }
 
 .main-footer--top {
 	display: flex;
 	justify-content: space-between;
 	padding-bottom: 50px;
+	margin-top: 60px;
 }
 
 .main-footer--top :first-child {
@@ -614,18 +626,13 @@ input[type=email] {
 }
 
 .main-footer__nav  > * {
-     width: 325px;
+     width: 14.81481vw;
       }
 
 .main-footer__nav :last-child {
-	max-width: 175px;
+	max-width: 14.81481vw;
 }
 
-.main-footer--bottom {
-	display: grid;
-	margin-top: 100px;
-	align-items: flex-end;
-}
 
 .bottom__nav {
 	display: flex;
@@ -636,8 +643,8 @@ input[type=email] {
 	font-size: 11px;
 	line-height: 23px;
 	list-style: none;
-	border: 1px solid pink;
 	justify-self: end;
+	margin: 0;
 }
 
 .footer--bottom_list-item {
@@ -652,6 +659,21 @@ input[type=email] {
 	color: #19111c;
 	font-weight: 400;
 }
+.main-footer--bottom {
+	display: grid;
+	margin-top: 100px;
+	align-items: flex-end;
+	grid-template-columns: 1fr 1fr;
+	padding-bottom: 30px;
+}
 
+.footer__nav {
+	display: grid;
+	align-self: end;
+}
 
+.footer__logo {
+	display: grid;
+	align-self: end;
+}
 

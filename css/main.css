@@ -50,7 +50,8 @@ html {
 .wrapper {
 	display: grid;
 	padding: 0 2.08333vw;
-	background-color: #ecebe7;
+	background: #fffefa url("../images/wax-texture.png") repeat;
+	background-size: 50px 50px;
 }
 
 
@@ -83,7 +84,6 @@ p {
 	padding: 0;
 	margin: 0;
 	align-items: center;
-	border-top: 1px solid;
 	border-bottom: 1px solid;
 
 }
@@ -273,7 +273,6 @@ h1 {
 	width: 100%;
 	height: 100%;
 	background-position: center;
-	border: 1px solid pink;
 	margin: 0;
 	padding: 0;
 }
@@ -343,6 +342,7 @@ h5 {
   text-transform: uppercase;
   justify-content: space-around;
   border-bottom: 1px solid #19111c;
+  padding-bottom: 20px;
 }
 
 .total { 

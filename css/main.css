@@ -622,8 +622,7 @@ input[type=email] {
 }
 
 .main-footer--bottom {
-	display: flex;
-	flex-wrap: wrap;
+	display: grid;
 	margin-top: 100px;
 	align-items: flex-end;
 }
@@ -637,8 +636,8 @@ input[type=email] {
 	font-size: 11px;
 	line-height: 23px;
 	list-style: none;
-	justify-content: flex-end;
 	border: 1px solid pink;
+	justify-self: end;
 }
 
 .footer--bottom_list-item {

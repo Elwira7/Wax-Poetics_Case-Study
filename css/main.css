@@ -342,6 +342,7 @@ h5 {
   margin-bottom: 20px;
   text-transform: uppercase;
   justify-content: space-around;
+  border-bottom: 1px solid #19111c;
 }
 
 .total { 
@@ -575,6 +576,12 @@ input[type=email] {
 	padding-bottom: 20px;
 }
 
+/*-----Footer-----*/
+
+.main-footer {
+	border-top: 1px solid #19111c;
+}
+
 .footer__ul {
 	display: block;
 	list-style: none;
@@ -602,9 +609,7 @@ input[type=email] {
 }	
 .main-footer__nav {
 	display: flex;
-	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: flex-end;
 	line-height: 23px;
 }
 

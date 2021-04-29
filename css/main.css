@@ -260,10 +260,6 @@ h1 {
 	display: grid;
 }
 
-
-
-
-
 .mix__genre {
 	font-family: "Helvetica Neue", Helvetica, sans;
 	font-weight: 400;
@@ -366,8 +362,6 @@ h5 {
   grid-template-columns: 1fr;
   align-content: center;
   justify-content: center;
-  border: 1px solid pink;
-  max-width: 150px;
 }
 
 .sort-by { 
@@ -380,6 +374,8 @@ h5 {
   font-weight: 300;
   letter-spacing: 0.01em;
   text-align: right;
+  justify-content: end;
+  justify-self: end;
 
 }
 

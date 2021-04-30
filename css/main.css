@@ -473,17 +473,13 @@ h5 {
 }
 
 .icons__sound-waves {
-	margin: 10;
+	margin-right: 10px;
 }
 
 .mix__tag {
 	display: flex;
 	align-items: center;
 }
-
-
-
-
 
 
 .icons--bars {

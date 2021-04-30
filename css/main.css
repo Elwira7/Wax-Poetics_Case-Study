@@ -458,6 +458,7 @@ h5 {
   grid-gap: 75px;
   margin-top: 20px;
   margin-bottom: 20px;
+  color: black;
 }
 
 .icons {
@@ -467,24 +468,30 @@ h5 {
 
 .icons--bars {
 	padding-right: 20px;
+	color: black;
 }
 
-#arrow-up--45 {
+.arrow-up--45 {
 	display: inline-block;
 	transform: rotate(45deg);
 	padding-bottom: 0;
 	max-width: 0px;
+	color: black;
 }
 
 .bars--90 {
 	display: inline-block;
 	transform: rotate(90deg);
+	color: black;
 }
 
 .fa-chevron-down {
 	padding-left: 10px;
 	padding-right: 0;
+	color: black;
 }
+
+
 
 /*-----Page Title Section-----*/
 

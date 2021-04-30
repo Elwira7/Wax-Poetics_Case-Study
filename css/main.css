@@ -208,6 +208,12 @@ h1 {
 
 /*-----Mix Grid Starts Here-----*/
 
+hr {
+	box-sizing: border-box;
+	border-top: .5px solid #19111c;
+	width: 100%;
+	background: none;
+}
 .mixes {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(490px, 1fr));
@@ -464,6 +470,7 @@ h5 {
 .icons {
 	color: black;
 	padding-right: 5px;
+	font-weight: 50%;
 }
 
 .icons--bars {

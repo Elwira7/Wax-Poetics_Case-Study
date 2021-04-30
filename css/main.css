@@ -470,8 +470,21 @@ h5 {
 .icons {
 	color: black;
 	padding-right: 5px;
-	font-weight: 50%;
 }
+
+.icons__sound-waves {
+	margin: 10;
+}
+
+.mix__tag {
+	display: flex;
+	align-items: center;
+}
+
+
+
+
+
 
 .icons--bars {
 	padding-right: 20px;

@@ -245,17 +245,17 @@ hr {
 	grid-template-rows: auto;
 	column-gap:20px;
 	text-align: center;
-	align-self: start;
 }
 
 .mix__tag {
 	display: grid;
 	justify-content: flex-start;
+	align-self: start;
 }
 
 .mix__image {
 	display: grid;
-
+	align-self: start;
 }
 
 .mix__content {
@@ -265,6 +265,7 @@ hr {
 
 .mix_read-article {
 	display: grid;
+	align-self: end;
 }
 
 .mix__genre {
@@ -280,7 +281,7 @@ hr {
 	display: block;
 	object-fit: cover;
 	width: 100%;
-	height: auto;
+	height: 100%;
 	background-position: center;
 	margin: 0;
 	padding: 0;
@@ -325,6 +326,8 @@ h5 {
 	text-align: center;
 	text-decoration: none;
 	color: #19111c;
+	padding: 0
+	margin: 0;
 }
 
 .compiled-by {
@@ -335,7 +338,8 @@ h5 {
 	text-align: center;
 	color: #19111c;
 	letter-spacing: -.01em;
-	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 40px;
 }
 
 
@@ -474,6 +478,11 @@ h5 {
 
 .icons__sound-waves {
 	margin-right: 10px;
+}
+
+.icons__bars {
+	margin-left: 5px;
+	margin-right: 20px;
 }
 
 .mix__tag {

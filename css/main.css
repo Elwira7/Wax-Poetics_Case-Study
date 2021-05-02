@@ -41,15 +41,16 @@ html {
 
 .container {
 	max-width: 1920px;
-	padding-left: 20px;
-	padding-right: 20px;
-	margin: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	background: #fffefa url("../images/wax-texture.png") repeat;
+	background-size: 50px 50px;
+
 
 }
 
 .wrapper {
 	display: grid;
-	padding: 0 2.08333vw;
 	background: #fffefa url("../images/wax-texture.png") repeat;
 	background-size: 50px 50px;
 }
@@ -74,6 +75,8 @@ p {
 	max-width: 500px;
 }
 
+
+
 /*----Main Header-----*/
 
 .main-header {
@@ -85,8 +88,11 @@ p {
 	margin: 0;
 	align-items: center;
 	border-bottom: 1px solid;
+	overflow: hidden;
 
 }
+
+
 
 .eyebrow-menu a {
 	list-style: none;

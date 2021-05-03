@@ -45,8 +45,6 @@ html {
 	padding-right: 40px;
 	background: #fffefa url("../images/wax-texture.png") repeat;
 	background-size: 50px 50px;
-
-
 }
 
 .wrapper {
@@ -256,6 +254,7 @@ hr {
 	column-gap:20px;
 	text-align: center;
 	align-self: start;
+	grid-template-rows: auto 1fr 150px auto;
 }
 
 .hidden {
@@ -595,13 +594,12 @@ input[type=email] {
 	font-size: 20px;
 	line-height: 27px;
 	color: #19111c;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	text-align: left;
 }
 
 
 .email-form {
-	padding-bottom: 10px;
 	font-size: 18px;
 	padding-left: 0;
 	font-family: "Helvetica Neue", Helvetica, sans;
@@ -609,7 +607,8 @@ input[type=email] {
 	}
 
 .email-form .mailchimp-form__email {
-	padding: 0;
+	padding-bottom: 10px;
+	padding-left: 0;
 	margin: 0;
 }
 
